@@ -24,10 +24,10 @@ const { title, description, home = false } = Astro.props;
     sizes="16x16"
     href="/favicon-16x16.png"
   />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#139cab" />
-  <meta name="msapplication-TileColor" content="#5cebdf" />
-  <meta name="theme-color" content="#ffffff" />
+  *<link rel="manifest" href="/site.webmanifest" />*
+  *<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#139cab" />*
+ * <meta name="msapplication-TileColor" content="#5cebdf" />*
+ * <meta name="theme-color" content="#ffffff" />*
   <title>{title}</title>
 
   <style global>
@@ -146,7 +146,7 @@ const { title, description, home = false } = Astro.props;
 
   <slot />
 
-  <footer class="footer">
+  *<footer class="footer">
     <a href="https://www.netlify.com/?utm_source=github&utm_medium=feature-tour-repo&utm_campaign=devex-jl">
       created with
       <span class="heart" role="img" aria-label="love">
@@ -157,7 +157,7 @@ const { title, description, home = false } = Astro.props;
       </span>
       by the Netlify team
     </a>
-  </footer>
+  </footer>*
 
 </body>
 </html>
