@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+/totally              https://testnets.opensea.io/assets/goerli/0x0da784bc8074bbcd1890b0d0ccc871d3392a0c1e/1              302
